@@ -1,4 +1,4 @@
-## 2. サンプルアプリ
+## 2. 本日のOpenShiftワークショップ
 ## 2.1. プロジェクト  クローン
 まずこのハンズオンでオマージュするプロジェクト [https://github.com/osonoi/node-build-config-openshift](https://github.com/osonoi/node-build-config-openshift)をクローンします。<br>
 
