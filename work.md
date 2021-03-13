@@ -1,5 +1,5 @@
 ## 2. 本日のOpenShiftワークショップ
-## 2.1. プロジェクト  クローン
+### 2.1. プロジェクト  クローン
 まずこのハンズオンでオマージュするプロジェクト [https://github.com/osonoi/node-build-config-openshift](https://github.com/osonoi/node-build-config-openshift)をクローンします。<br>
 
 ```
@@ -38,7 +38,7 @@ EXPOSE 8080
 CMD [ "npm", "start" ]
 ```
 
-2.2. イメージ ビルド
+### 2.2. イメージ ビルド
 **oc new-build**コマンドでカスタムビルダーイメージをビルドする BuildConfig を定義します。
 
 ```
@@ -54,21 +54,27 @@ oc start-build example-health --from-dir . --follow
 ```
 
 こちらも少し時間がかかりますが、イメージがdocker-registryにアップロード完了すれば成功です。<br>
-次のコマンドを使ってdocker-registryからアプリをOpenShift上にデプロイします。
+
+### 2.3 デプロイ
+先の手順でビルド＆docker-registryへのアップロード完了しました。</br>
+次は、docker-registryからアプリをOpenShift上にデプロイします。
 
 ```
 oc new-app -i example-health
 ```
 
 OpenShiftの上にアプリはデプロイできました。<br>
-ですが、まだこのアプリはインターネット環境への接続口を開けていないため、私達はインターネットを介してアクセスすることはできません。<br>
-そのため、次のコマンドでこのアプリに外部環境への接続口を構築します。
+
+### 2.4 アプリ公開
+先の手順で、OpenShift上でアプリは動き出しましたが、まだこのアプリはインターネット環境への接続口を開けていないため、私達はインターネットを介してアクセスすることはできません。<br>
+そのため、次のコマンドでこのアプリに外部環境との接続口を構築します。
 
 ```
 oc expose svc/example-health
 ```
 
-これで、**example-health**に外部からアクセスすることができるようになりました。<br>
+### 2.5 アクセスURL
+先の手順で**example-health**に外部からアクセスすることができるようになりました。<br>
 ですが、アクセスURLは分かりませんよね？<br>
 そこで、次のコマンドを使ってアクセスURLを調べてください。
 
@@ -87,7 +93,12 @@ example-health   example-health-example-health-ns.aida-dev-apps-10-30-f2c6cdc680
 上記の中で**example-health-example-health-ns.aida-dev-apps-10-30-f2c6cdc6801be85fd188b09d006f13e3-0001.us-south.containers.appdomain.cloud**の部分がアクセスURLになります。<br>
 ご自身の環境からこのURLにアクセスしてみてください。
 
+### 2.6 アプリケーションへのアクセス
+デプロイされ、Webへ公開されたアプリケーションへアクセスできました。<br>
+実際にこのアプリケーションへログインしてみましょう。ID,Passwordともに「test」と入れてログインしてください。<br>
+医療関連のデータを管理するサンプルアプリケーションへログインできたかと思います。
+![](./images/018.png)
 
-
+ここまでで、GitHub上のソースコードをダイレクトにOpenShiftへデプロイする方法を学びました。
 
 
