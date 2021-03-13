@@ -69,6 +69,10 @@ Webコンソールは、通常以下のようなURLでリダイレクトされ�
 
 これでOpenShiftワークショップの環境準備は完了です。
 
+[本日のOpenShiftワークショップ](https://github.com/Teruyoshi-Matsushima/openshift-s2i-lab/blob/main/work.md)
+
+
+
 
 ## 2. ソースコードのFork
 ここからはGitHubへアクセスして自分のリポジトリへサンプルソースコードをForkしていきます。
