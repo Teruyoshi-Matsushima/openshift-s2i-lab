@@ -99,6 +99,10 @@ example-health   example-health-example-health-ns.aida-dev-apps-10-30-f2c6cdc680
 医療関連のデータを管理するサンプルアプリケーションへログインできたかと思います。
 ![](./images/018.png)
 
-ここまでで、GitHub上のソースコードをダイレクトにOpenShiftへデプロイする方法を学びました。
+お疲れ様でした。ここまでで、GitHub上のソースコードをCLIを使ってOpenShiftへデプロイする方法を学びました。
 
 
+## その他のアプリケーション
+もし、PHPのサンプルアプリケーションで試してみたい方は下記のリポジトリーのソースコードを試してみてください。
+[https://github.com/osonoi/php-s2i-openshift](https://github.com/osonoi/php-s2i-openshift)
+![](./images/029.png)
