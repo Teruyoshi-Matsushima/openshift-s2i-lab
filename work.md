@@ -6,7 +6,13 @@ OpenShift Container Platform のコマンドラインインターフェース (C
 * OpenShift Container Platform 操作をスクリプト化する。
 * 帯域幅のリソースによる制限があり、Web コンソール を使用できない。
 
+### 2.0. OCコマンド実行環境準備
+
+
+
+
 ### 2.1. プロジェクト  クローン
+ワークショッププロジェクト用にお好みのディレクトリ/フォルダを作り、そこに移動してください。
 まずこのハンズオンでオマージュするプロジェクト [https://github.com/osonoi/node-build-config-openshift](https://github.com/osonoi/node-build-config-openshift)をクローンします。<br>
 
 ```
