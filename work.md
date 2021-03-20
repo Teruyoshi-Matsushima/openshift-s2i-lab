@@ -15,6 +15,13 @@ OpenShiftのメニューバーに並んでいる「？」アイコンをクリ�
 ここの各OS用OCコマンドの実行プログラムをクリックし、ダウンロード
 ![](./images/032.png)
 
+* Mac/Linuxの場合</br>
+「$PATH」が示す場所にOCコマンドの実行プログラムを移動
+![](./images/038.png)
+
+* Windowsの場合</br>
+実行環境に追加
+
 
 
 2. お使いのPC環境から IBM Cloud 上の OpenShift 環境にログインします。
