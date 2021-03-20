@@ -17,17 +17,17 @@ OpenShiftのメニューバーに並んでいる「？」アイコンをクリ�
 
 
 
-
+2. お使いのPC環境から IBM Cloud 上の OpenShift 環境にログインします。
+ご自身のIAMをプルダウンし、プルダウンされるものの中から「Copy Login Command」をクリック
 ![](./images/033.png)
 
-
-
-
+「Display Token」をクリック
 ![](./images/034.png)
 
-
-
+「Log in with this token」枠に記載されているOCコマンドをコピー
 ![](./images/035.png)
+
+ご自身のターミナルにペースト＆実行
 
 
 
