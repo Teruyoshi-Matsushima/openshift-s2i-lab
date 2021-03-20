@@ -8,6 +8,24 @@ OpenShift Container Platform のコマンドラインインターフェース (C
 
 ### 2.0. OCコマンド実行環境準備
 
+![](./images/031.png)
+
+
+![](./images/032.png)
+
+
+
+
+![](./images/033.png)
+
+
+
+
+![](./images/034.png)
+
+
+
+![](./images/035.png)
 
 
 
