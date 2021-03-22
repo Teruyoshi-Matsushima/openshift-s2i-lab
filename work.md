@@ -78,26 +78,13 @@ ocコマンド実行1回目は、発行元不明のコマンド実行に対し�
 
 <kdb><img src="./images/058.png" /></kdb>
 
-[環境変数]ダイアログ
-「Path」編集で「新規」を選択し、解凍したOCコマンドのパスを記入
+[環境変数]ダイアログ上で、「Path」をクリックし、[編集]で[新規]を選択し、さきほど控えたOCコマンドのパスを記入</br>
 
+<kdb><img src="./images/066.png" /></kdb>
 
-<kdb><img src="./images/059.png" /></kdb>
+再度、ocコマンドの実行を確認</br>
 
-<kdb><img src="./images/060.png" /></kdb>
-
-<kdb><img src="./images/061.png" /></kdb>
-
-
-<kdb><img src="./images/062.png" /></kdb>
-
-
-<kdb><img src="./images/063.png" /></kdb>
-
-
-
-
-
+<kdb><img src="./images/07.png" /></kdb>
 
 2. お使いのPC環境から IBM Cloud 上の OpenShift 環境にログインします。
 ご自身のIAMをプルダウンし、プルダウンされるものの中から「Copy Login Command」をクリック</br>
