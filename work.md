@@ -2,10 +2,8 @@
 ### 概要
 OpenShift Container Platform のコマンドラインインターフェース (CLI) を使用し、ターミナルからアプリケーションを作成し、IBM Cloud 上の OpenShift にデプロイします。</br>
 このCLIを使ったプロジェクト管理方法は以下の場合に適しています。
-* プロジェクトソースコードを直接使用している。
-* OpenShift Container Platform 操作をスクリプト化する。
-* 帯域幅のリソースによる制限があり、Web コンソール を使用できない。
 
+<kdb><img src="./images/068.png" /></kdb>
 
 ### 2.0. OCコマンド実行環境準備
 
