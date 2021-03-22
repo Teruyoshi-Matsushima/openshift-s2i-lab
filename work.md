@@ -71,14 +71,12 @@ ocコマンド実行1回目は、発行元不明のコマンド実行に対し�
 
 <kdb><img src="./images/054.png" /></kdb>
 
-<kdb><img src="./images/055.png" /></kdb>
-
 <kdb><img src="./images/057.png" /></kdb>
 
 
 [システムのプロパティ]ダイアログ-[環境変数]をクリック
 
-<kdb><img src="./images/058.png" /></kdb>
+<kdb><img src="./images/058.pn" /></kdb>
 
 [環境変数]ダイアログ
 「Path」編集で「新規」を選択し、解凍したOCコマンドのパスを記入
