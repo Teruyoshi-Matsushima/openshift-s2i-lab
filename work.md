@@ -14,6 +14,8 @@ OpenShift Container Platform のコマンドラインインターフェース (C
 OpenShiftのメニューバーに並んでいる「？」アイコンをクリックし、プルダウンされるものの中から「Command Line Tools」をクリック</br>
 ![](./images/031.png)
 
+<kdb><img src="./images/031.png" /></kdb>
+  
 ここの各OS用OCコマンドの実行プログラムをクリックし、ダウンロード</br>
 ![](./images/032.png)
 
