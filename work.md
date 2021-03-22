@@ -69,7 +69,7 @@ ocコマンド実行1回目は、発行元不明のコマンド実行に対し�
 
 [スタート]右クリック-[システム]-[システムの詳細設定]をクリック
 
-<kdb><img src="./images/054.pn" /></kdb>
+<kdb><img src="./images/054.png" /></kdb>
 
 <kdb><img src="./images/055.png" /></kdb>
 
