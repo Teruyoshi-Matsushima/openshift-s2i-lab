@@ -210,4 +210,5 @@ example-health   example-health-example-health-ns.aida-dev-apps-10-30-f2c6cdc680
 ## その他のアプリケーション
 もし、PHPのサンプルアプリケーションで試してみたい方は下記のリポジトリーのソースコードを試してみてください。
 [https://github.com/osonoi/php-s2i-openshift](https://github.com/osonoi/php-s2i-openshift)
+
 ![](./images/029.png)
