@@ -92,7 +92,7 @@ ocコマンド実行1回目は、発行元不明のコマンド実行に対し�
 ![](./images/034.png)
 
 「Log in with this token」枠に記載されているOCコマンドをコピー</br>
-![](./images/035.png)
+![](./images/035.pn)
 
 ご自身のターミナルにペースト＆実行</br>
 ![](./images/036.png)
