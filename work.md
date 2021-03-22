@@ -15,9 +15,11 @@ OpenShiftのメニューバーに並んでいる「？」アイコンをクリ�
 ここの各OS用OCコマンドの実行プログラムをクリックし、ダウンロード</br>
 ![](./images/032.png)
 
-
 ・ Mac/Linuxの場合</br>
-「$PATH」が示す場所にOCコマンドの実行プログラムを移動</br>
+「$PATH」が示す場所にダウンロードした「oc.zip」を解凍</br>
+この場合、環境変数PATHが「/usr/local/bin」に通っているので、そのディレクトリ配下に以下のコマンドを使って解凍</br>
+`unzip ~/Downloads/oc.zip -d /usr/local/bin/`
+
 ![](./images/039.png)
 
 ![](./images/040.png)
