@@ -205,7 +205,21 @@ example-health   example-health-example-health-ns.aida-dev-apps-10-30-f2c6cdc680
 
 ![](./images/029.png)
 
-お疲れ様でした。ここまでで、GitHub上のソースコードをCLIを使ってOpenShiftへデプロイする方法を学びました。
+お疲れ様でした。ここまでで、GitHub上のソースコードをCLIを使い、以下を実施しました。
+* サンプルプロジェクトをクローン！
+* コードをビルドしイメージを構築 ＆ OpenShift内部レジストリにイメージをPush!
+* ポッドにアプリケーションをデプロイ！
+* アプリケーションをrouteで公開！
+
+### 3. おかたずけ
+終了する前に、もう一度これらのコマンドを試したい場合は以下のコマンドを使っておかたずけをします。
+``
+oc delete dc example-health
+oc delete svc example-health
+oc delete bc example-health
+oc delete route example-health
+oc delete imagestream example-health
+``
 
 
 ## その他のアプリケーション
