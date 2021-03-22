@@ -84,7 +84,7 @@ ocコマンド実行1回目は、発行元不明のコマンド実行に対し�
 
 再度、ocコマンドの実行を確認</br>
 
-<kdb><img src="./images/07.png" /></kdb>
+<kdb><img src="./images/067.png" /></kdb>
 
 2. お使いのPC環境から IBM Cloud 上の OpenShift 環境にログインします。
 ご自身のIAMをプルダウンし、プルダウンされるものの中から「Copy Login Command」をクリック</br>
