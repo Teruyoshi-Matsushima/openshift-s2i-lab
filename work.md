@@ -15,7 +15,8 @@ OpenShiftのメニューバーに並んでいる「？」アイコンをクリ�
 <kdb><img src="./images/031.png" /></kdb>
   
 ここの各OS用OCコマンドの実行プログラムをクリックし、ダウンロード</br>
-![](./images/032.png)
+
+<kdb><img src="./images/032.png" /></kdb>
 
 ・ Mac/Linuxの場合</br>
 「$PATH」が示す場所にダウンロードした「oc.zip」を解凍</br>
@@ -23,72 +24,78 @@ OpenShiftのメニューバーに並んでいる「？」アイコンをクリ�
 `unzip ~/Downloads/oc.zip -d /usr/local/bin/`
 また、動作確認のため`oc`コマンドを実行してみる
 
-![](./images/039.png)
+<kdb><img src="./images/039.png" /></kdb>
 
 すると、以下のような発行元不正のため実行できない旨が表示されるので、ここでは一旦「キャンセル」してください。
 
-![](./images/040.png)
+<kdb><img src="./images/040.png" /></kdb>
 
 このOCコマンドの実行を許可するために、以下の手順でシステム環境設定でOCコマンドを許可します。
 まず、[リンゴマーク]-[システム環境設定]</br>
-![](./images/048.png)
+
+<kdb><img src="./images/048.png" /></kdb>
+
 [セキュリティとプライバシー]</br>
-![](./images/041.png)
+
+<kdb><img src="./images/041.png" /></kdb>
 
 画面左下にある閉じた鍵アイコンをクリックし、認証</br>
 
-![](./images/042.png)
+<kdb><img src="./images/042.png" /></kdb>
 
-
-![](./images/049.png)
+<kdb><img src="./images/049.png" /></kdb>
 
 画面左下にある鍵アイコンが開いたアイコンになったことを確認し、「”oc”は開発元を確認できないため、使用がブロックされました。」の右にある「このまま許可」をクリック</br>
 
-![](./images/045.png)
+<kdb><img src="./images/045.png" /></kdb>
 
 ocコマンド実行1回目は、発行元不明のコマンド実行に対し注意喚起ダイアログが表示されますが、IBMからダウンロードしたocコマンドですので「開く」をクリック</br>
-![](./images/046.png)
+
+<kdb><img src="./images/046.png" /></kdb>
 
 再度、ocコマンドの実行を確認</br>
-![](./images/047.png)
+
+<kdb><img src="./images/047.png" /></kdb>
 
 
 ・ Windowsの場合</br>
 ダウンロードされた「oc.zip」を右クリックし、「すべて展開」により任意のディレクトに解凍</br>
 解凍先を「環境設定変数」として使うためパスをコピーしておく</br>
 
-![](./images/051.png)
+<kdb><img src="./images/051.png" /></kdb>
 
-![](./images/064.png)
+<kdb><img src="./images/064.png" /></kdb>
+
 
 [スタート]右クリック-[システム]-[システムの詳細設定]をクリック
 
-![](./images/054.png)
+<kdb><img src="./images/054.png" /></kdb>
 
-![](./images/055.png)
+<kdb><img src="./images/055.png" /></kdb>
 
-![](./images/057.png)
+<kdb><img src="./images/057.png" /></kdb>
 
 
 [システムのプロパティ]ダイアログ-[環境変数]をクリック
 
-![](./images/058.png)
+<kdb><img src="./images/058.png" /></kdb>
 
 [環境変数]ダイアログ
 「Path」編集で「新規」を選択し、解凍したOCコマンドのパスを記入
 
 
+<kdb><img src="./images/059.png" /></kdb>
+
+<kdb><img src="./images/060.png" /></kdb>
+
+<kdb><img src="./images/061.png" /></kdb>
 
 
-![](./images/059.png)
+<kdb><img src="./images/062.png" /></kdb>
 
-![](./images/060.png)
 
-![](./images/061.png)
+<kdb><img src="./images/063.png" /></kdb>
 
-![](./images/062.png)
-
-![](./images/063.png)
 
 
 
