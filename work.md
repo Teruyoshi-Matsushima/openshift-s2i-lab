@@ -6,6 +6,8 @@ OpenShift Container Platform のコマンドラインインターフェース (C
 * OpenShift Container Platform 操作をスクリプト化する。
 * 帯域幅のリソースによる制限があり、Web コンソール を使用できない。
 
+<kbd><img src="https://cloud.githubusercontent.com/assets/7123644/26231237/0d584952-3c89-11e7-866e-9078bd8207a8.png" /></kbd>
+
 ### 2.0. OCコマンド実行環境準備
 
 1. お使いのPC環境に合ったOCコマンドの実行プログラムを以下の手順でダウンロードしてください。</br>
@@ -53,6 +55,7 @@ ocコマンド実行1回目は、発行元不明のコマンド実行に対し�
 
 ・ Windowsの場合</br>
 ダウンロードされた「oc.zip」を右クリックし、「すべて展開」により任意のディレクトに解凍</br>
+解凍先を「環境設定変数」として使うためパスをコピーしておく</br>
 
 ![](./images/051.png)
 
