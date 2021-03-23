@@ -19,8 +19,7 @@
 1. OpenShift環境の準備
 2. ソースコード クローン
 3. アプリケーションのDeploy
-4. Webhookの設定
-5. ソースコードの修正及びDeploy(⾃動）
+
 
 ## 1. OpenShift環境の準備
 ワークショップ⽤のIBM Cloud環境にご⾃⾝のIBM Cloud IDを関連付けます。
