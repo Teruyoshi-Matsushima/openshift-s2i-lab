@@ -205,6 +205,9 @@ example-health   example-health-example-health-ns.aida-dev-apps-10-30-f2c6cdc680
 
 ![](./images/029.png)
 
+
+### 2.7. gotcha
+
 お疲れ様でした。ここまでで、GitHub上のソースコードをCLIを使い、以下を実施しました。
 * サンプルプロジェクトをクローン！
 * コードをビルドしイメージを構築 ＆ OpenShift内部レジストリにイメージをPush!
