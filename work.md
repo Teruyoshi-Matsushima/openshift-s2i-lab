@@ -19,7 +19,7 @@ OpenShiftのメニューバーに並んでいる「？」アイコンをクリ�
 ・ Mac/Linuxの場合</br>
 「$PATH」が示す場所にダウンロードした「oc.zip」を解凍</br>
 この場合、環境変数PATHが「/usr/local/bin」に通っているので、そのディレクトリ配下に以下のコマンドを使って解凍</br>
-`unzip ~/Downloads/oc.zip -d /usr/local/bin/`
+`unzip ~/Downloads/oc.zip -d /usr/local/bin/`</br>
 また、動作確認のため`oc`コマンドを実行してみる
 
 <kdb><img src="./images/039.png" /></kdb>
