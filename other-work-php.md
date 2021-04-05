@@ -9,7 +9,11 @@ git clone https://github.com/osonoi/php-s2i-openshift
 cd php-s2i-openshift
 ```
 
-### 2.2. イメージ ビルド
+### A.2. イメージ ビルド
+
+予め、先の手順で示したように[OCコマンドを実行できるようにし、](https://github.com/Teruyoshi-Matsushima/openshift-s2i-lab/blob/main/work.md#20-oc%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E5%AE%9F%E8%A1%8C%E7%92%B0%E5%A2%83%E6%BA%96%E5%82%99) <br>
+OpenShift 環境にログインしてください。
+
 **oc new-build**コマンドでカスタムビルダーイメージをビルドする BuildConfig を定義します。
 
 ```
@@ -26,7 +30,7 @@ oc start-build example-health-php --from-dir src/ --follow
 
 こちらも少し時間がかかりますが、イメージがdocker-registryにアップロードされると成功です。<br>
 
-### 2.3 デプロイ
+### A.3 デプロイ
 先の手順でビルド＆docker-registryへのアップロード完了しました。</br>
 次は、docker-registryからアプリをOpenShift上にデプロイします。
 
@@ -36,7 +40,7 @@ oc new-app -i example-health-php
 
 OpenShiftの上にアプリはデプロイできました。<br>
 
-### 2.4 アプリ公開
+### A.4 アプリ公開
 先の手順で、OpenShift上でアプリは動き出しましたが、まだこのアプリはインターネット環境への接続口を開けていないため、私達はインターネットを介してアクセスすることはできません。<br>
 そのため、次のコマンドでこのアプリに外部環境との接続口を構築します。
 
@@ -44,7 +48,7 @@ OpenShiftの上にアプリはデプロイできました。<br>
 oc expose svc/example-health-php
 ```
 
-### 2.5 アクセスURL
+### A.5 アクセスURL
 先の手順で**example-health**に外部からアクセスすることができるようになりました。<br>
 ですが、アクセスURLは分かりませんよね？<br>
 そこで、次のコマンドを使ってアクセスURLを調べてください。
