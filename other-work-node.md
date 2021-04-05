@@ -1,12 +1,13 @@
+こちらでは、[nodejsプロジェクト](https://github.com/IBM/node-s2i-openshift.git) をOCコマンドによりs2iしていきます。<br>
+
 ### B.1. プロジェクト  クローン
-ワークショッププロジェクト用にお好みのディレクトリ/フォルダを作り、そこに移動してください。
-まずこのハンズオンでオマージュするプロジェクト [https://github.com/osonoi/node-build-config-openshift](https://github.com/osonoi/node-build-config-openshift)をクローンします。<br>
+ご自身の環境にお好みのディレクトリ/フォルダを作り、そこに移動してください。
+その後対象プロジェクト (https://github.com/IBM/node-s2i-openshift.git) をクローンします。<br>
 
 ```
-git clone https://github.com/IBM/node-build-config-openshift
-cd node-build-config-openshift
+git clone https://github.com/IBM/node-s2i-openshift
+cd node-s2i-openshift
 ```
-
 ### B.2. イメージ ビルド
 
 予め、先の手順で示したように[OCコマンドを実行できるようにし、](https://github.com/Teruyoshi-Matsushima/openshift-s2i-lab/blob/main/work.md#20-oc%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E5%AE%9F%E8%A1%8C%E7%92%B0%E5%A2%83%E6%BA%96%E5%82%99) <br>
