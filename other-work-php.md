@@ -1,6 +1,6 @@
-### 2.1. プロジェクト  クローン
-ワークショッププロジェクト用にお好みのディレクトリ/フォルダを作り、そこに移動してください。
-まずこのハンズオンでオマージュするプロジェクト [https://github.com/osonoi/node-build-config-openshift](https://github.com/osonoi/node-build-config-openshift)をクローンします。<br>
+### A.1. プロジェクト  クローン
+ご自身の環境にお好みのディレクトリ/フォルダを作り、そこに移動してください。
+その後対象プロジェクト (https://github.com/osonoi/php-s2i-openshift.git) をクローンします。<br>
 
 ```
 git clone https://github.com/IBM/node-build-config-openshift
