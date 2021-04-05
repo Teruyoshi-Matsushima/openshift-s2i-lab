@@ -228,4 +228,5 @@ oc delete imagestream example-health
 ## その他のアプリケーション
 もし、PHPのサンプルアプリケーションで試してみたい方は下記のリポジトリーのソースコードを試してみてください。
 [https://github.com/osonoi/php-s2i-openshift](https://github.com/osonoi/php-s2i-openshift)
+
 [s2i by cli 実行例](https://github.com/Teruyoshi-Matsushima/openshift-s2i-lab/blob/main/other-work.md)
