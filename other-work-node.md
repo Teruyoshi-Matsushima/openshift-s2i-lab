@@ -7,37 +7,6 @@ git clone https://github.com/IBM/node-build-config-openshift
 cd node-build-config-openshift
 ```
 
-今クローンしたディレクトリにある**Dockerfile**を見れば、これから作成しようとしているアプリがどのようにコンテナライズされているのか分かります。<br>
-
-```
-cat Dockerfile
-```
-
-**Dockerfile**内の中身です。
-
-```
-# Use the official Node 10 image
-FROM node:10
-
-# Change directory to /usr/src/app
-WORKDIR /usr/src/app
-
-# Copy the application source code
-COPY . .
-
-# Change directory to site/
-WORKDIR site/
-
-# Install dependencies
-RUN npm install
-
-# Allow traffic on port 8080
-EXPOSE 8080
-
-# Start the application
-CMD [ "npm", "start" ]
-```
-
 ### 2.2. イメージ ビルド
 
 予め、先の手順で示したように[OCコマンドを実行できるようにし、](https://github.com/Teruyoshi-Matsushima/openshift-s2i-lab/blob/main/work.md#20-oc%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E5%AE%9F%E8%A1%8C%E7%92%B0%E5%A2%83%E6%BA%96%E5%82%99) <br>
