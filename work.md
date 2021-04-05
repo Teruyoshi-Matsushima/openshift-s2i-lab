@@ -226,6 +226,15 @@ oc delete imagestream example-health
 
 
 ## その他のアプリケーション
-もし、PHPのサンプルアプリケーションで試してみたい方は下記のリポジトリーのソースコードを試してみてください。
+### appendix.A
+PHPのサンプルアプリケーションで試してみたい方は下記のリポジトリーのソースコードを試してみてください。
 [https://github.com/osonoi/php-s2i-openshift](https://github.com/osonoi/php-s2i-openshift) <br>
 [⇑s2i by cli 実行例](https://github.com/Teruyoshi-Matsushima/openshift-s2i-lab/blob/main/other-work.md)
+
+### appendix.B
+nodeのサンプルアプリケーションで試してみたい方は下記のリポジトリーのソースコードを試してみてください。
+[https://github.com/IBM/node-s2i-openshift](https://github.com/IBM/node-s2i-openshift)
+
+### appendix.C
+pythonのサンプルアプリケーションで試してみたい方は下記のリポジトリーのソースコードを試してみてください。
+[https://github.com/IBM/deploy-python-openshift-s2i-tutorial](https://github.com/IBM/deploy-python-openshift-s2i-tutorial)
