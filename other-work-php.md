@@ -1,4 +1,4 @@
-こちらでは、https://github.com/osonoi/php-s2i-openshift.git をOCコマンドによりs2iしていきます。<br>
+こちらでは、[PHPプロジェクト](https://github.com/osonoi/php-s2i-openshift.git) をOCコマンドによりs2iしていきます。<br>
 
 ### A.1. プロジェクト  クローン
 ご自身の環境にお好みのディレクトリ/フォルダを作り、そこに移動してください。
