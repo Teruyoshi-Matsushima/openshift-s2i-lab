@@ -14,7 +14,7 @@ OpenShift 環境にログインしてください。
 **oc new-build**コマンドでカスタムビルダーイメージをビルドする BuildConfig を定義します。
 
 ```
-oc new-build --strategy docker --binary --docker-image node:10 --name example-health
+oc new-build --strategy source --binary nodejs --name example-health-nodejs
 ```
 
 少し時間がかかりますが、最後に**--> Success**と表示されると成功です。
@@ -22,7 +22,7 @@ oc new-build --strategy docker --binary --docker-image node:10 --name example-he
 次に、先の手順で作成された**BuildConfig**を指定して、**oc start-build**によりイメージを構築します。
 
 ```
-oc start-build example-health --from-dir . --follow
+oc start-build example-health-nodejs --from-dir site/ --follow
 ```
 
 こちらも少し時間がかかりますが、イメージがdocker-registryにアップロードされると成功です。<br>
@@ -32,7 +32,7 @@ oc start-build example-health --from-dir . --follow
 次は、docker-registryからアプリをOpenShift上にデプロイします。
 
 ```
-oc new-app -i example-health
+oc new-app -i example-health-nodejs
 ```
 
 OpenShiftの上にアプリはデプロイできました。<br>
@@ -42,7 +42,7 @@ OpenShiftの上にアプリはデプロイできました。<br>
 そのため、次のコマンドでこのアプリに外部環境との接続口を構築します。
 
 ```
-oc expose svc/example-health
+oc expose svc/example-health-nodejs
 ```
 
 ### B.5 アクセスURL
@@ -59,8 +59,9 @@ oc get routes
 $ oc get routes
 
 NAME             HOST/PORT                                                                                                                        PATH      SERVICES         PORT       TERMINATION   WILDCARD
-example-health   example-health-example-health-ns.aida-dev-apps-10-30-f2c6cdc6801be85fd188b09d006f13e3-0001.us-south.containers.appdomain.cloud             example-health   8080-tcp                 None
+example-health-nodejs   example-health-nodejs-default.jpcsm4d02-4216c78965aaa521311d0371fde68bf9-0000.jp-tok.containers.appdomain.cloud          example-health-nodejs   8080-tcp                 None
 ```
 
-上記の中で**example-health-example-health-ns.aida-dev-apps-10-30-f2c6cdc6801be85fd188b09d006f13e3-0001.us-south.containers.appdomain.cloud**の部分がアクセスURLになります。<br>
+上記の中で**example-health-nodejs-default.jpcsm4d02-4216c78965aaa521311d0371fde68bf9-0000.jp-tok.containers.appdomain.cloud
+**の部分がアクセスURLになります。<br>
 ご自身の環境からこのURLにアクセスしてみてください。
