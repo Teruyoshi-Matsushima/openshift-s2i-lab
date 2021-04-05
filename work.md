@@ -156,7 +156,7 @@ oc new-build --strategy docker --binary --docker-image node:10 --name example-he
 oc start-build example-health --from-dir . --follow
 ```
 
-こちらも少し時間がかかりますが、イメージがdocker-registryにアップロード完了すれば成功です。<br>
+こちらも少し時間がかかりますが、イメージがdocker-registryにアップロードされると成功です。<br>
 
 ### 2.3 デプロイ
 先の手順でビルド＆docker-registryへのアップロード完了しました。</br>
