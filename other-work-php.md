@@ -67,3 +67,5 @@ example-health-php   example-health-php-default.jpcsm4d02-4216c78965aaa521311d03
 
 上記の中で**example-health-php-default.jpcsm4d02-4216c78965aaa521311d0371fde68bf9-0000.jp-tok.containers.appdomain.cloud**の部分がアクセスURLになります。<br>
 ご自身の環境からこのURLにアクセスしてみてください。
+
+※殖栗さん、情報提供ありがとうございます。
