@@ -233,10 +233,10 @@ PHPのサンプルアプリケーションで試してみたい方は下記の�
 
 ### appendix.B
 nodeのサンプルアプリケーションで試してみたい方は下記のリポジトリーのソースコードを試してみてください。
-[https://github.com/IBM/node-s2i-openshift](https://github.com/IBM/node-s2i-openshift)
+[https://github.com/IBM/node-s2i-openshift](https://github.com/IBM/node-s2i-openshift) <br>
 [⇑s2i by cli 実行例](https://github.com/Teruyoshi-Matsushima/openshift-s2i-lab/blob/main/other-work-node.md)
 
 ### appendix.C
 pythonのサンプルアプリケーションで試してみたい方は下記のリポジトリーのソースコードを試してみてください。
-[https://github.com/IBM/deploy-python-openshift-s2i-tutorial](https://github.com/IBM/deploy-python-openshift-s2i-tutorial)
+[https://github.com/IBM/deploy-python-openshift-s2i-tutorial](https://github.com/IBM/deploy-python-openshift-s2i-tutorial) <br>
 [⇑s2i by cli 実行例](https://github.com/Teruyoshi-Matsushima/openshift-s2i-lab/blob/main/other-work-python.md)
